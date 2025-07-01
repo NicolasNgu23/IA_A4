@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 40px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+canvas {
+  border: 2px solid #444;
+  background-color: black;
+  cursor: crosshair;
+}
+
+.controls {
+  margin: 15px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#prediction {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MNIST Drawing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Dessine un chiffre (de 0 à 9)</h1>
+
+  <canvas id="draw-canvas" width="280" height="280"></canvas>
+  <div class="controls">
+    <button onclick="clearCanvas()">Effacer</button>
+    <button onclick="runInference()">Prédire</button>
+  </div>
+
+  <p id="prediction">Prédiction : ...</p>
+
+  <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
